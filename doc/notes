@@ -1,0 +1,32 @@
+. programming on Linux
+ . dj delorie website provides a tool to program the kit: rxusb
+  . http://www.delorie.com/electronics/rx-stick
+  . instruction to be followed:
+   . http://www.renesasrulz.com/thread/3137
+  . originally done for th ethe rx-stick board that needed a kernel patch
+  . plus there is no serial interface in the new rx kit
+
+ . opensource software and toolchains
+  . http://www.rxmcu.com/USA/software.php
+  . http://www.kpitgnutools.com/index.php
+  . https://github.com/nullsub/RX62n-media
+  . http://www.renesasrulz.com/message/10764;jsessionid=BBB1DC82670D66BEF733769614254536.node0
+  . http://zizzle-brewbot.blogspot.com/2010/12/renesas-rdk-bring-up.html
+  . http://www.renesasrulz.com/post!reply.jspa?thread=3098
+
+. programming the kit on Windows using hew and kpit
+ . download the dvd installation from the following url: http://am.renesas.com/products/tools/introductory_evaluation_tools/renesas_demo_kits/yrdkrx62n/child_folder/downloads_child.jsp
+ . opensource software
+  . hew: ide
+  . kpit: gnu toolchain
+ . examples
+  . http://www.kpitgnutools.com/Sample_Tutorials.html
+  . http://www.freertos.org/index.html?http://www.freertos.org/FreeRTOS_RX62N_GCC_GNURX.html
+   . freertos contains demo application for the kit. refer to the Demo/RX600_RX62N-RDK_GNURX directory
+   . 2 demos available: blinky and full
+
+
+. todo
+ . check what drivers are present with freertos (esp. CAN controller)
+ . install a toolhcain on linux
+ . check if the freertos port on works on linux (dj delorie made one)
